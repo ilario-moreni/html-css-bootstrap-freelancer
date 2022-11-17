@@ -70,6 +70,32 @@ main{
     color:white;
 }
 
+/* start bootstrap section */
+
+.avatar_img{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.my_star{
+    font-size: 32px;
+    text-align: center;
+}
+
+.profession{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
 /* footer */
 
 
@@ -79,4 +105,20 @@ footer{
 
 .bg_darkblue{
     background-color: #2C3E50;
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px){
+    /* commons */
+
+    /* main */
+
+    h1{
+        font-size:64px;
+    }
+
+    .profession{
+        font-size: 28px;
+    }
 }
