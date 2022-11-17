@@ -19,6 +19,12 @@
     color:white;
 }
 
+/* elements */
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
 
 
 /* header */
@@ -94,8 +100,21 @@ h1{
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
 }
+
+
+/* portfolio section */
+
+#portfolio{
+    color: #2C3E50;
+}
+
+#portfolio img{
+    width: 100%;
+    border-radius: 20px;
+}
+
 /* footer */
 
 
@@ -111,7 +130,10 @@ footer{
 
 @media screen and (min-width: 768px){
     /* commons */
-
+    
+    h2{
+        font-size: 48px;
+    }
     /* main */
 
     h1{
