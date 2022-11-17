@@ -157,14 +157,50 @@ h1{
 }
 /* footer */
 
-
 footer{
     background-color: #3A546D;
+    color: white;
+    font-size: 18px;
+    text-align: center;
 }
 
 .bg_darkblue{
     background-color: #2C3E50;
+    font-size: 16px;
 }
+
+h3{
+    font-size: 18px;
+}
+
+.start_bootstrap_a{
+    color:#1ABC9C;
+    text-decoration: none;
+}
+
+.social_icons_container{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.fa-brands::before{
+    position:absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.circled-icon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
 
 /* media queries */
 
@@ -190,5 +226,9 @@ footer{
 
     .padding_right_p{
         padding-left:0;
+    }
+    /* footer */
+    h3{
+        font-size: 24px;
     }
 }
