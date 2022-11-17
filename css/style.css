@@ -7,7 +7,7 @@
 
 /* header */
 
-.header_bg{
+header{
     background-color: #2C3E50;
     color:white;
 }
@@ -22,7 +22,7 @@
 /* footer */
 
 
-.bg_blue{
+footer{
     background-color: #3A546D;
 }
 
