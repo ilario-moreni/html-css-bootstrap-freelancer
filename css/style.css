@@ -2,7 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, sans-serif;
 }
+
+/* commons */
+
+/* classes */
+
+.flex_end{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.color_white{
+    color:white;
+}
+
 
 
 /* header */
@@ -10,9 +26,44 @@
 header{
     background-color: #2C3E50;
     color:white;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 0;
+    height: 64px;
+    text-transform: uppercase;
 }
 
+.header-logo{
+    
+    font-weight: 700;
+}
+
+.nav_ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_list_item{
+    text-decoration: none;
+    margin-left: 20px;
+    color: inherit;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.nav_button{
+    font-size: 32px;
+    line-height: 0;
+}
 /* main */
+
+main{
+    margin-top: 64px;
+}
 
 .section_bg_green{
     background-color: #1ABC9C;
